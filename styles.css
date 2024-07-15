@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 21, 24);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 412px;
+    min-width: 327px;
+    height: 360px;
+    border-radius: 1rem;
+    background-color: rgb(35, 42, 52);
+}
