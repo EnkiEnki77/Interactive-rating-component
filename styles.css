@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(19, 21, 24);
+    background-color: hsl(216, 12%, 8%);
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -11,13 +11,90 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Overpass';
 }
 
 .container{
     width: 100%;
     max-width: 412px;
     min-width: 327px;
-    height: 360px;
+    min-height: 360px;
     border-radius: 1rem;
-    background-color: rgb(35, 42, 52);
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    color: white;
+}
+
+.star-container{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: hwb(217 58% 33% / 0.11);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.star-container:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+}
+
+.star-container:active{
+    background-color:white;
+    color: hsl(216, 12%, 8%);
+}
+
+.star{
+    opacity: 1;
+}
+
+p{
+    color:  hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+
+.form-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+    border-radius: 22.5px;
+    height: 3rem;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.selection-container{
+    background-color: hwb(217 58% 33% / 0.11);
+    border-radius: 20px;
+    padding: .4rem 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.selection-container p{
+    margin: 0;
+    color: hsl(25, 97%, 53%);
 }
